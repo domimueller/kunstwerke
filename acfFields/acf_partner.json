@@ -1,0 +1,45 @@
+
+[
+    {
+        "key": "group_617d6063e66ab",
+        "title": "Felder für Sponsoren",
+        "fields": [
+            {
+                "key": "field_617d617a44cce",
+                "label": "Sponsor URL",
+                "name": "sponsor_url",
+                "type": "text",
+                "instructions": "Bitte vollständige URL für die Verlinkung mit der Partnerwebsite eingeben.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "domi_sponsors_cpt"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]
